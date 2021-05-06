@@ -1,0 +1,26 @@
+.footer_con{
+    width: 100%;
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_sm_con{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.footer_sm{
+    width: 2.5rem;
+    margin: 1rem 3vw;
+    cursor: pointer;
+}
+
+.footer_reserved{
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    opacity: 0.5;
+}

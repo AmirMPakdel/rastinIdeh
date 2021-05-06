@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Group_307" data-name="Group 307" transform="translate(-1084.05 -7862.302)">
+    <g id="Icon_feather-linkedin" data-name="Icon feather-linkedin" transform="translate(1088.05 7865.302)">
+      <path id="Path_414" data-name="Path 414" d="M17.994,12a2.994,2.994,0,0,1,2.994,2.994v3.493h-2V14.994a1,1,0,1,0-2,0v3.493H15V14.994A2.994,2.994,0,0,1,17.994,12Z" transform="translate(-7.988 -5.987)" fill="none" stroke="#0cb3bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.85"/>
+      <path id="Path_415" data-name="Path 415" d="M3,13.5H5v5.988H3Z" transform="translate(0 -6.988)" fill="none" stroke="#0cb3bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.85"/>
+      <path id="Path_416" data-name="Path 416" d="M5,4A1,1,0,1,1,4,3,1,1,0,0,1,5,4Z" fill="none" stroke="#0cb3bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.85"/>
+    </g>
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(1084.05 7862.302)" fill="none" stroke="#0cb3bf" stroke-width="1">
+      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+      <circle cx="11.5" cy="11.5" r="11" fill="none"/>
+    </g>
+  </g>
+</svg>

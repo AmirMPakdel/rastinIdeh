@@ -1,0 +1,118 @@
+.header_con{
+    position: fixed;
+    top: 0;
+    opacity: 0.97;
+    box-shadow: 0 0.1rem 4rem 0.1rem #0cb3bf5d;
+    z-index: 60;
+    display: flex;
+    height: 4.5rem;
+    width: 100%;
+    padding-right: 7rem;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: white;
+}
+
+.header_link{
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0 0.8rem;
+    text-decoration: none;
+}
+
+.header_link:hover{
+    /* transform: scale(1.1); */
+    opacity: 0.8;
+}
+
+.header_icon{
+    position: absolute;
+    right: 3rem;
+    height: 70%;
+    width: auto;
+    cursor: pointer;
+    transition: ease 500ms;
+}
+
+.header_icon:hover{
+    /* transform: scale(1.05); */
+}
+
+.header_menu_icon{
+    display: none;
+}
+
+#nav_bar{
+    display: none;
+}
+
+.nav_bar_link{
+    display: none;
+}
+
+@media(max-width:767px){
+
+    .header_con{
+        height: 10vh;
+        padding: 0 2rem;
+    }
+
+    .header_link{
+        display: none;
+    }
+
+    .header_menu_icon{
+        display: flex;
+        height: 35%;
+        width: auto;
+        cursor: pointer;
+    }
+
+    .header_icon{
+        left: 1.2rem;
+    }
+
+    #nav_bar{
+        position: fixed;
+        top:0;
+        right: -14rem;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding-top: 5rem;
+        min-width: 12rem;
+        max-width: 14rem;
+        background: rgb(12,179,191);
+        background: linear-gradient(198deg, rgba(255, 255, 255, 1) 55%,  rgba(12,179,191,1) 100%);
+        z-index: 51;
+        transition: ease 600ms;
+    }
+
+    .nav_bar_link{
+        display: flex;
+        font-size: 1rem;
+        text-align: right;
+        direction: rtl;
+        margin: 0.8rem;
+        margin-right: 2rem;
+        text-decoration: none;
+        opacity: 0.9;
+        color: #0cb3bf;
+    }
+}
+
+@media(min-width:768px) and (max-width:1199px){
+
+    .header_con{
+        padding: 0 3rem;
+    }
+
+    .header_link{
+        font-size: 0.9rem;
+        margin: 0 0.6rem;
+    }
+
+    .header_icon{
+        left: 3rem;
+    }
+}

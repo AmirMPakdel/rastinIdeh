@@ -1,0 +1,161 @@
+.service_s_con{
+    overflow: hidden;
+    height: 38rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0.1rem 2rem 0.2rem #0cb3bf7c;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+
+#serviceSec{
+    position: absolute;
+    top: -4rem;
+}
+
+.sec_title_con{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec_title_t{
+    font-size: 2rem;
+    color: #0CB3BF;
+}
+
+.sec_subtitle{
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.sec_title_undline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 0.25rem;
+    background-color: #0cb3bf;
+    border-radius: 1rem;
+}
+
+.sec_title_innerLine{
+    position: absolute;
+    height: 250%;
+    width: 18%;
+    border-radius: 2rem;
+    background-color: #0cb3bf;
+}
+
+.service_s_grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 42rem;
+    height: 28rem;
+    margin-top: 2rem;
+}
+
+.service_card_con{
+    height: 11rem;
+    width: 11rem;
+    border-radius: 0.2rem;
+    margin: 0 1.5rem;
+    background-color: #0CB3BF;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service_card_bgimg{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    transition: ease 1s;
+}
+
+.service_card_bgimg:hover{
+    transform: scale(1.2);
+}
+
+.service_card_bgimg_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.92;
+    pointer-events: none;
+}
+
+.service_logo{
+    pointer-events: none;
+}
+
+.service_title{
+    display: flex;
+    color: #FFF;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    padding-bottom: 2rem;
+    pointer-events: none;
+}
+
+@media(max-width:767px){
+
+    .service_s_con{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .sec_title_t{
+        font-size: 1.3rem;
+    }
+
+    .sec_subtitle{
+        font-size: 0.8rem;
+    }
+
+    .sec_title_undline{
+        margin-top: 0.8rem;
+        width: 12rem;
+        height: 0.15rem;
+        background-color: #0cb3bf;
+        border-radius: 1rem;
+    }
+
+    .service_s_grid{
+        width: 20rem;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .service_card_con{
+        height: 8rem;
+        width: 8rem;
+        margin: 0.5rem 1rem;
+    }
+
+    .service_logo{
+
+        height: 20%;
+    }
+
+    .service_title{
+        font-size: 0.7rem;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:1199px){
+
+    .service_s_con{
+        height: 59rem;
+        flex-direction: column;
+        align-items: center;
+    }
+}
